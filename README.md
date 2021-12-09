@@ -451,8 +451,7 @@ However, if you want it to bypass the X Window Manager, the only solution I have
 
 For this to work, you first need to disable the Raspberry Pi's built in VNC server through `raspi-config`. I did run into issues with applications which use OpenGL components (such as the example above), where the OpenGL graphics fail to render.
 
-(Yet to be verified)
-## Step 7: Installing Python Bindings
+## Step 7: Installing Python Bindings(Yet to be verified)
 	sudo apt install qml-module-qtquick-controls2
 	sudo apt-get install qtbase5-dev qtchooser
 	sudo apt-get install qt5-qmake qtbase5-dev-tools
